@@ -1,0 +1,52 @@
+author			= "Tiber Brutus";
+onLoadName		= "Operation Stingray";
+onLoadMission	= "Task force Spartan begin coastal raids on Altis";
+loadScreen		= "Display.jpg";
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Operation Success";
+		subtitle = "";
+		description = "With the elimination of the SAM site and mine fields, NATO forces quickly established air dominance over western Altis and were able to land its ground forces with little to no resistance. Kavala and the nearby towns in the surrounding area have already fallen into NATO hands and it is believed that AAF days of terror are now numbered.";
+		pictureBackground = "Display.jpg";
+	};
+    class End2
+	{
+		title = "Operation Failed";
+		subtitle = "";
+		description = "";
+		pictureBackground = "";
+	};
+};
+
+class CfgSounds
+
+{
+
+ tracks[]={};
+
+ class Track01
+ {
+
+  name = "Track01";
+
+  sound[] = {"\raid.wav", 4000, 1.0};
+
+  titles[] = {};
+
+ };
+
+ class Track02
+ {
+
+  name = "Track02";
+
+  sound[] = {"\brief.wav", 250, 1.0};
+
+  titles[] = {};
+
+ };
+
+};
